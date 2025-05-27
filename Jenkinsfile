@@ -7,5 +7,11 @@ pipline {
                 git credential: '5089c998-1359-41f1-81af-38ce272c918c', url: 'https://github.com/Ryucha/jenkins_test.git'
             }
         }
+
+        stage('Build') {
+            steps {
+                echo 'Building...'
+            }
+        }
     }
 }
