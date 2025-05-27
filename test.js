@@ -1,1 +1,1 @@
-제발 돼라
+console.log("test")
